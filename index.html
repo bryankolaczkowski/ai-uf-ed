@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <script>document.getElementsByTagName("html")[0].className += " js";</script> -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Multi-Level Accordion Menu | CodyHouse</title>
+</head>
+<body style="padding: 3em 0">
+<section class="container max-width-sm">
+  <div class="text-component text-center">
+    <p>HELLO</p>
+    <h1>so, you wanna teach some Artificial Intelligence...</h1>
+  </div>
+
+  <nav>
+  <ul class="cd-accordion cd-accordion--animated margin-top-lg margin-bottom-lg">
+
+    <!-- AI Applications -->
+    <li class="cd-accordion__item cd-accordion__item--has-children">
+      <input class="cd-accordion__input" type="checkbox" name ="ai_applications" id="ai_applications">
+      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="ai_applications"><span>AI Applications</span></label>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item">This is a description of AI Applications. AI Applications are stuff that
+        people do with AI. But it isn't just the college, because that goes at the top.</li>
+        <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Overview</span></a></li>
+      </ul>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item cd-accordion__item--has-children">
+          <input class="cd-accordion__input" type="checkbox" name ="current" id="current">
+          <label class="cd-accordion__label cd-accordion__label--icon-folder" for="current"><span>Current Domains</span></label>
+
+          <ul class="cd-accordion__sub cd-accordion__sub--l2">
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image Analysis</span></a></li>
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Speech Recognition</span></a></li>
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Face Recognition</span></a></li>
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Decision Support Systems</span></a></li>
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Classification</span></a></li>
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Generative Networks</span></a></li>
+          </ul>
+        </li>
+
+        <li class="cd-accordion__item cd-accordion__item--has-children">
+          <input class="cd-accordion__input" type="checkbox" name ="future" id="future">
+          <label class="cd-accordion__label cd-accordion__label--icon-folder" for="future"><span>Future Directions</span></label>
+
+          <ul class="cd-accordion__sub cd-accordion__sub--l2">
+            <li class="cd-accordion__item cd-accordion__item--has-children">
+              <input class="cd-accordion__input" type="checkbox" name ="sub-group-level-3" id="sub-group-level-3">
+              <label class="cd-accordion__label cd-accordion__label--icon-folder" for="sub-group-level-3"><span>Sub Group Level 3</span></label>
+
+              <ul class="cd-accordion__sub cd-accordion__sub--l3">
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
+                <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
+              </ul>
+            </li>
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Image</span></a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item cd-accordion__item--has-children">
+          <input class="cd-accordion__input" type="checkbox" name ="implementation" id="implementation">
+          <label class="cd-accordion__label cd-accordion__label--icon-folder" for="implementation"><span>Implementation Analysis</span></label>
+
+          <ul class="cd-accordion__sub cd-accordion__sub--l2">
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Something here</span></a></li>
+            <li class="cd-accordion__item"><a class="cd-accordion__label cd-accordion__label--icon-img" href="#0"><span>Something else</span></a></li>
+          </ul>
+        </li>
+      </ul
+
+    </li>
+
+    <!-- AI Ethics -->
+    <li class="cd-accordion__item cd-accordion__item--has-children">
+      <input class="cd-accordion__input" type="checkbox" name ="ai_ethics" id="ai_ethics">
+      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="ai_ethics"><span>AI Ethics</span></label>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item">This is a description of AI Ethics. If you want to use AI, you should be
+          ethical about it. Don't do stuff that would mess up people's lives... at least not too much. Like, don't
+          destroy the world or anything. Unless you're making a video game.</li>
+      </ul>
+    </li>
+
+    <!-- Education and Communication -->
+    <li class="cd-accordion__item cd-accordion__item--has-children">
+      <input class="cd-accordion__input" type="checkbox" name ="ed_comm" id="ed_comm">
+      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="ed_comm"><span>Education and Communication</span></label>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item">This is a description of AI Education and Communication.</li>
+      </ul>
+    </li>
+
+    <!-- Legal and Policy Implications -->
+    <li class="cd-accordion__item cd-accordion__item--has-children">
+      <input class="cd-accordion__input" type="checkbox" name ="legal" id="legal">
+      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="legal"><span>Legal and Policy Implications</span></label>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item">This is a description of AI Legal and Policy Implications.</li>
+      </ul>
+    </li>
+
+    <!-- Data -->
+    <li class="cd-accordion__item cd-accordion__item--has-children">
+      <input class="cd-accordion__input" type="checkbox" name ="data" id="data">
+      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="data"><span>Data Related to AI</span></label>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item">This is a description for Data related to AI.</li>
+      </ul>
+    </li>
+
+    <!-- AI methods -->
+    <li class="cd-accordion__item cd-accordion__item--has-children">
+      <input class="cd-accordion__input" type="checkbox" name ="methods" id="methods">
+      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="methods"><span>AI Methods</span></label>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item">This is a description of AI Methods.</li>
+      </ul>
+    </li>
+
+    <!-- systems, environments architectures -->
+    <li class="cd-accordion__item cd-accordion__item--has-children">
+      <input class="cd-accordion__input" type="checkbox" name ="systems" id="systems">
+      <label class="cd-accordion__label cd-accordion__label--icon-folder" for="systems"><span>Systems, Environments and Architectures</span></label>
+
+      <ul class="cd-accordion__sub cd-accordion__sub--l1">
+        <li class="cd-accordion__item">This is a description of AI Systems, Environments and Architectures.</li>
+      </ul>
+    </li>
+
+
+
+  </ul>
+  </nav>
+</section>
+<!--
+<script src="assets/js/util.js"></script>
+<script src="assets/js/main.js"></script>
+-->
+</body>
+</html>
